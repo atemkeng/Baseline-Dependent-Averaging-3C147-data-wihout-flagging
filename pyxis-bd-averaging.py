@@ -28,13 +28,13 @@ def simulate_imaging_bd_3c147 (hiresms=None, loresms=None, inputcolumn="DATA", o
 	# arrays is of size (p,q,datacom,flagrowpq,weightpq)
 	# take the number of time bins of the longest baseline and make low res timeslots
     	MSResampler.save_visibility_arrays (loresms,arrays,column=outputcolumn)
-  	imager.npix= 512#2048#1024#2048
+  	imager.npix= 2048#1024#2048
 	imager.cellsize = "2arcsec"
 	imager.stokes   = "I"
 	imager.weight   = "natural"
 	imager.wprojplanes = 128
 	#cleaning options
-	imager.niter = 1#1000
+	imager.niter = 1000
 	imager.threshold = "5mJy"
 	imager.CLEAN_ALGORITHM = "csclean"
 	
