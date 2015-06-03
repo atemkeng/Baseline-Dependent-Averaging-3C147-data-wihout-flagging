@@ -3,7 +3,7 @@ Baseline-Dependent-Averaging-3C147-data-without-any-flag-of-uv-bins
 
 These scripts are made to test BD-avg on a real 3C147 data
 
-Please the indexes of the shortest baseline length of the JVLA data I used is "(psh=2, qsh=8)", do change this indexes in the script pyxis-bd-averaging.py
+Please the indexes of the shortest baseline length of the JVLA data I used is "(psh=2, qsh=8)", do change this indexes in the script pyxis-bd-averaging.py for different telescopes
 
 1-) You can take the hires data in my jake account : /home/atemkeng/RealDATA/3C147-1425-NOAVG.MS
 
