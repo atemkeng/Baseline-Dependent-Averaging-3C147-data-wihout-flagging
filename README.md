@@ -1,13 +1,15 @@
-Baseline-Dependent-Averaging-3C147-data
+Baseline-Dependent-Averaging-3C147-data-without-any-flag-of-uv-bins
 =======================================
 
 These scripts are made to test BD-avg on a real 3C147 data
+
+Please the indexes of the shortest baseline length of the JVLA data I used is "(psh=2, qsh=8)", do change this indexes in the script pyxis-bd-averaging.py
 
 1-) You can take the hires data in my jake account : /home/atemkeng/RealDATA/3C147-1425-NOAVG.MS
 
 scp -f atemkeng@jake.ru.ac.za:/home/atemkeng/RealDATA/3C147-1425-NOAVG.MS $HOME
 
-2-) MSRSAMPLE.py script for baseline dependent averaging 
+2-) MSRSAMPLE.py script for baseline dependent averaging
 
 3-) The imaging script ("pyxis-bd-averaging.py") is not well develloped, so you can use the normal imaging tools (lwimager,....) to work after bd-averaging.
 
